@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    background-color: blueviolet;
+    width: 100px;
+    height: 150px;
+}
+.box3{
+    background-color: brown;
+    width: 170px;
+    height: 130px;
+}
+.container{
+    display: flex;
+}
+.canhphai{
+    justify-content: flex-end;
+}
+.canhgiua{
+    justify-content: space-between;
+}
+.eptrai{
+    margin-left: 30px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey; 
+}
+.ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+li:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
